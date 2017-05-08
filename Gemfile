@@ -56,6 +56,7 @@ group :test do
   gem "rspec-rails"
   gem "factory_girl_rails"
   gem 'ffaker'
+  gem 'shoulda-matchers'
 end
 
 gem 'devise', git: 'https://github.com/gogovan/devise.git', branch: 'rails-5.1'
